@@ -60,7 +60,9 @@
 </pre>
 
 #### 7. NPM Install for vue webpack
-<pre>npm install</pre>
+<pre>
+    npm install
+</pre>
 
 #### 8. Install Font-Awesome for Icons
 <pre>

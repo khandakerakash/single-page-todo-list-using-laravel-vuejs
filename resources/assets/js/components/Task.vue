@@ -35,9 +35,9 @@
                     </div>
 
                     <div class="panel-footer" v-if="tasks.length">
-                        <span class="label label-default">You have {{ tasks.length }} tasks <i class="fas fa-frown"></i></span>
-                        <span class="label label-warning"> {{ reminingTask() }} tasks left <i class="fas fa-smile"></i></span>
-                        <span class="label label-success"> {{ completedTask() }} tasks completed <i class="far fa-check-circle"></i></span>
+                        <span class="label label-default">You have {{ tasks.length }} tasks <i class="fa fa-frown"></i></span>
+                        <span class="label label-warning"> {{ reminingTask() }} tasks left <i class="fa fa-smile"></i></span>
+                        <span class="label label-success"> {{ completedTask() }} tasks completed <i class="fa fa-check"></i></span>
                     </div>
 
                 </div>
