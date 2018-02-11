@@ -73,7 +73,7 @@
                 axios.post(`/api/tasks`, this.task)
                     .then((res) => {
                         this.tasks.unshift(res.data),
-                        this.task.name = ''
+                        this.task.title = ''
                     })
                     .catch((err) => {
                         console.log(err)
