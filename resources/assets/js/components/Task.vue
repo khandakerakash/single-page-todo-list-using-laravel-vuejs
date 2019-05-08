@@ -74,6 +74,8 @@
                     .then((res) => {
                         this.tasks.unshift(res.data),
                         this.task.title = ''
+
+                        event.target.reset();
                     })
                     .catch((err) => {
                         console.log(err)
